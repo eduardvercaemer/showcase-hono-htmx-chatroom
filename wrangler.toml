@@ -1,0 +1,26 @@
+name = "cf-hono"
+compatibility_date = "2023-12-01"
+
+[[durable_objects.bindings]]
+name = "CHATROOM"
+class_name = "Chatroom"
+
+[[migrations]]
+tag = "v1"
+new_classes = ["Chatroom"]
+
+# [vars]
+# MY_VARIABLE = "production_value"
+
+# [[kv_namespaces]]
+# binding = "MY_KV_NAMESPACE"
+# id = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+
+# [[r2_buckets]]
+# binding = "MY_BUCKET"
+# bucket_name = "my-bucket"
+
+# [[d1_databases]]
+# binding = "DB"
+# database_name = "my-database"
+# database_id = ""
